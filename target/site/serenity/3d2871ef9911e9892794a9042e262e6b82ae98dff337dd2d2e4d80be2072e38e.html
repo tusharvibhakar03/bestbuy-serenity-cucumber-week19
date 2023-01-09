@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- JQuery-UI -->
+<link type="text/css" href="jqueryui/1.11.2-start/jquery-ui.min.css" rel="Stylesheet" />
+<script type="text/javascript" src="jqueryui/1.11.2-start/jquery-ui.min.js"></script><!-- DataTables -->
+<link type="text/css" href="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.css" rel="Stylesheet"/>
+<link type="text/css" href="css/tables.css" rel="stylesheet" />
+
+<script type="text/javascript" src="datatables/1.10.4/media/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" src="datatables/1.10.4/media/jqueryui/dataTables.jqueryui.min.js"></script>
+    <script class="code" type="text/javascript">$(document).ready(function () {
+
+        // Results table
+        $('#tag-list-table').DataTable( {
+            "order": [
+                [ 1, "asc" ]
+            ],
+            "pageLength": 25
+        } );
+
+        $("test-list").tabs();
+    });
+    </script>
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Best Buy App</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs"><a href="index.html">Home</a> 
+                > Stories
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 09-01-2023 20:53</span>
+    <br style="clear:left"/>
+</div>
+
+
+
+   <div class="clr"></div>
+    <div id="beforetable"></div>
+    <div id="results-dashboard">
+        <div class="middlb">
+            <div class="table">
+                <table>
+                 <tr>
+                   <td>
+                    <div id="test-list">
+                        <ul>
+                            <li><a href="test-list-1">Stories</a></li>
+                        </ul>
+                    </div>
+                    <div id="test-list-1" class="table">
+                        <div class="test-results">
+                            <table id="tag-list-table">
+                                <thead>
+                                    <tr>
+                                        <th width="30" class="test-results-heading">&nbsp;</th>
+                                        <th width="750" class="test-results-heading">Story</th>
+                                        <th width="70" class="test-results-heading">Tests</th>
+                                        <th width="70" class="test-results-heading">Steps</th>
+                                        <th width="65" class="test-results-heading">Duration</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Product crud test with steps</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="1f8a12e8e15cd587ede95b7cab743d40a8a544eca1afbbaf7d53c0a76b2243e9.html">Product Crud Test With Steps</a></td>
+
+                                        <td class="lightgreentext">4</td>
+                                        <td class="lightgreentext">12</td>
+
+                                        <td class="lightgreentext">0.516</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Product crud test with steps</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="1f8a12e8e15cd587ede95b7cab743d40a8a544eca1afbbaf7d53c0a76b2243e9.html">Product Crud Test With Steps</a></td>
+
+                                        <td class="lightgreentext">4</td>
+                                        <td class="lightgreentext">12</td>
+
+                                        <td class="lightgreentext">0.516</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Product crud test with steps</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="1f8a12e8e15cd587ede95b7cab743d40a8a544eca1afbbaf7d53c0a76b2243e9.html">Product Crud Test With Steps</a></td>
+
+                                        <td class="lightgreentext">4</td>
+                                        <td class="lightgreentext">12</td>
+
+                                        <td class="lightgreentext">0.516</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Product crud test with steps</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="1f8a12e8e15cd587ede95b7cab743d40a8a544eca1afbbaf7d53c0a76b2243e9.html">Product Crud Test With Steps</a></td>
+
+                                        <td class="lightgreentext">4</td>
+                                        <td class="lightgreentext">12</td>
+
+                                        <td class="lightgreentext">0.516</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Product crud test with steps2</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-FAILURE">
+                                        <td><span class="summary-icon"/><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span><span style="display:none">FAILURE</span></td>
+                                        <td class="FAILURE-text"><a href="394e759ef150cff3dd4e10e2f92d0c2f4be9e1b655166a24ca00384ccef1a7e4.html">Product Crud Test With Steps2</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">8</td>
+
+                                        <td class="lightgreentext">0.102</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Product crud test with steps2</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-FAILURE">
+                                        <td><span class="summary-icon"/><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span><span style="display:none">FAILURE</span></td>
+                                        <td class="FAILURE-text"><a href="394e759ef150cff3dd4e10e2f92d0c2f4be9e1b655166a24ca00384ccef1a7e4.html">Product Crud Test With Steps2</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">8</td>
+
+                                        <td class="lightgreentext">0.102</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Product crud test with steps2</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-FAILURE">
+                                        <td><span class="summary-icon"/><i class='fa fa-times-circle failure-icon fa-2x' title='FAILURE'></i></span><span style="display:none">FAILURE</span></td>
+                                        <td class="FAILURE-text"><a href="394e759ef150cff3dd4e10e2f92d0c2f4be9e1b655166a24ca00384ccef1a7e4.html">Product Crud Test With Steps2</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">8</td>
+
+                                        <td class="lightgreentext">0.102</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Store curd test with data driven</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="3078b7f7b68d2c3254e80816da49fd926d4af206ff9f2427c96b114a7d4572fe.html">Store Curd Test With Data Driven</a></td>
+
+                                        <td class="lightgreentext">9</td>
+                                        <td class="lightgreentext">27</td>
+
+                                        <td class="lightgreentext">0.267</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Store curd test with steps</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="bac97537e1b5f7d230123fb070686642ac79a6f5b032f80dd33994b48d570f63.html">Store Curd Test With Steps</a></td>
+
+                                        <td class="lightgreentext">4</td>
+                                        <td class="lightgreentext">12</td>
+
+                                        <td class="lightgreentext">0.384</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Store curd test with steps</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="bac97537e1b5f7d230123fb070686642ac79a6f5b032f80dd33994b48d570f63.html">Store Curd Test With Steps</a></td>
+
+                                        <td class="lightgreentext">4</td>
+                                        <td class="lightgreentext">12</td>
+
+                                        <td class="lightgreentext">0.384</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Store curd test with steps</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="bac97537e1b5f7d230123fb070686642ac79a6f5b032f80dd33994b48d570f63.html">Store Curd Test With Steps</a></td>
+
+                                        <td class="lightgreentext">4</td>
+                                        <td class="lightgreentext">12</td>
+
+                                        <td class="lightgreentext">0.384</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Store curd test with steps</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="bac97537e1b5f7d230123fb070686642ac79a6f5b032f80dd33994b48d570f63.html">Store Curd Test With Steps</a></td>
+
+                                        <td class="lightgreentext">4</td>
+                                        <td class="lightgreentext">12</td>
+
+                                        <td class="lightgreentext">0.384</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Tags test product</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="ce4b8e77b93c156784b2eb9ffdd45a6b2c28b87ea1c6866f801d9772d8476e1f.html">Tags Test Product</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">3</td>
+
+                                        <td class="lightgreentext">0.276</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Tags test product</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="ce4b8e77b93c156784b2eb9ffdd45a6b2c28b87ea1c6866f801d9772d8476e1f.html">Tags Test Product</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">3</td>
+
+                                        <td class="lightgreentext">0.276</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Tags test product</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="ce4b8e77b93c156784b2eb9ffdd45a6b2c28b87ea1c6866f801d9772d8476e1f.html">Tags Test Product</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">3</td>
+
+                                        <td class="lightgreentext">0.276</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Tags test store</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="a7ce88f81fd551cccd6edf2b8bbcf089af1d4e05a009c628aad6d9ea1890aabe.html">Tags Test Store</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">3</td>
+
+                                        <td class="lightgreentext">0.109</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Tags test store</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="a7ce88f81fd551cccd6edf2b8bbcf089af1d4e05a009c628aad6d9ea1890aabe.html">Tags Test Store</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">3</td>
+
+                                        <td class="lightgreentext">0.109</td>
+                                    </tr>
+                                    <tr>
+                                        <td>&nbsp;</td>
+                                        <td><h3>Tags test store</h3></td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                        <td>&nbsp;</td>
+                                    </tr>
+
+                                    <tr class="test-SUCCESS">
+                                        <td><span class="summary-icon"/><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span><span style="display:none">SUCCESS</span></td>
+                                        <td class="SUCCESS-text"><a href="a7ce88f81fd551cccd6edf2b8bbcf089af1d4e05a009c628aad6d9ea1890aabe.html">Tags Test Store</a></td>
+
+                                        <td class="lightgreentext">3</td>
+                                        <td class="lightgreentext">3</td>
+
+                                        <td class="lightgreentext">0.109</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                   </td>
+                  </tr>
+                 </table>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter"></div>
+
+</body>
+</html>

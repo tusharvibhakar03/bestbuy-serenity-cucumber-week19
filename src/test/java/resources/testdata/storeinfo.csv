@@ -1,0 +1,10 @@
+name,address,city,state,zip,type,address2,lat,lng,hours,services
+albertmall,dome roundabout,watford,tx,55410,bigbox,a41,97.457,-57.457,9-6,456
+maplecross,dome roundabout,stalbans,nj,55410,bigbox,a41,97.457,-93.457,10-6,123
+albertmall,dome roundabout,stalbans,nj,55410,bigbox,a1001,97.457,-93.457,9-6,123
+maplecross,dome roundabout,stalbans,nj,79123,bigbox,a41,45.03645,-93.457,10-6,123
+albertmall,ashleyroad,stalbans,tx,79123,bigbox,a1001,45.03645,-57.457,10-6,123
+albertmall,ashleyroad,watford,tx,79123,bigbox,a41,45.03645,-57.457,9-6,123
+albertmall,dome roundabout,stalbans,tx,55410,bigbox,a1001,97.457,-93.457,10-6,456
+albertmall,dome roundabout,watford,tx,79123,smallbox,a1001,97.457,-93.457,10-6,123
+albertmall,ashleyroad,watford,nj,79123,smallbox,a1001,45.03645,-93.457,9-6,123

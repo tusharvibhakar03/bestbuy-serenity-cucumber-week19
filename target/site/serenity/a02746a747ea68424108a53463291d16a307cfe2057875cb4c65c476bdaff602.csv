@@ -1,0 +1,3 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Tags test product","Provide a 405 status code when incorrect HTTP method is used to access resource","SUCCESS","2023-01-09T20:53:05.589Z[Europe/London]","0.0","0.02"
+"Tags test product","This test will provide an error code of 400 when user tries to access an invalid resource","SUCCESS","2023-01-09T20:53:05.843Z[Europe/London]","0.0","0.03"

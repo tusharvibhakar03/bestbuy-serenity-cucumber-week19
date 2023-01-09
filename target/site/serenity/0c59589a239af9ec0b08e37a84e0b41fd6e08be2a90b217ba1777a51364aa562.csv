@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Store curd test with steps","This will create new store","SUCCESS","2023-01-09T20:53:05.096Z[Europe/London]","0.0","0.14"
+"Store curd test with steps","Verify if the store was added to the application","SUCCESS","2023-01-09T20:53:05.241Z[Europe/London]","0.0","0.07"
+"Store curd test with steps","Update the user information and verify the updated information","SUCCESS","2023-01-09T20:53:05.308Z[Europe/London]","0.0","0.08"
+"Store curd test with steps","Delete the store and verify if the student is deleted!","SUCCESS","2023-01-09T20:53:05.391Z[Europe/London]","0.0","0.09"

@@ -1,0 +1,11 @@
+com\bestbuy\testsuit\StoreCurdTestWithDataDriven.class
+com\bestbuy\testbase\TestBase.class
+com\bestbuy\testsuit\ProductCrudTestWithDataDrivenTest.class
+com\bestbuy\cucumber\steps\StepDefStore.class
+com\bestbuy\cucumber\CucumberRunner.class
+com\bestbuy\cucumber\steps\StepDefProduct.class
+com\bestbuy\testsuit\TagsTestStore.class
+com\bestbuy\testsuit\ProductCrudTestWithSteps.class
+com\bestbuy\testsuit\ProductCrudTestWithSteps2.class
+com\bestbuy\testsuit\TagsTestProduct.class
+com\bestbuy\testsuit\StoreCurdTestWithSteps.class

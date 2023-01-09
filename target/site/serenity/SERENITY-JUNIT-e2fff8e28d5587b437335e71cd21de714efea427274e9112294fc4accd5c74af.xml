@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="com.bestbuy.testsuit.ProductCrudTestWithSteps2" skipped="0" tests="3" time="0.1" timestamp="2023-01-09T20:53:04.568Z[Europe/London]"><testcase classname="com.bestbuy.testsuit.ProductCrudTestWithSteps2" name="This will create new product"/><testcase classname="com.bestbuy.testsuit.ProductCrudTestWithSteps2" name="This test will Update the product information"><failure message="1 expectation failed.&#10;Expected status code &lt;200&gt; but was &lt;404&gt;.&#10;" type="java.lang.AssertionError">1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+</failure><system-err>1 expectation failed.
+Expected status code &lt;200&gt; but was &lt;404&gt;.
+&#13;
+io.restassured.internal.ResponseSpecificationImpl.validateResponseIfRequired(ResponseSpecificationImpl.groovy:636)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:122)&#13;
+io.restassured.internal.ResponseSpecificationImpl.statusCode(ResponseSpecificationImpl.groovy:130)&#13;
+io.restassured.internal.ValidatableResponseOptionsImpl.statusCode(ValidatableResponseOptionsImpl.java:117)&#13;
+com.bestbuy.testsuit.ProductCrudTestWithSteps2.test003(ProductCrudTestWithSteps2.java:59)&#13;
+</system-err></testcase><testcase classname="com.bestbuy.testsuit.ProductCrudTestWithSteps2" name="Delete the store and verify if the store is deleted!"/></testsuite>
