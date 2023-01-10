@@ -10,10 +10,10 @@ Feature: BestBuy Application
     Then I verify that the product  with "<price>" is created
     Examples:
       | name  | type  | upc  | description | model | price | shipping | manufacturer |
-      | viral1 | prime | abcd | auto        | best  | 10    | 11       | tesla        |
+      | TV | prime | abcd | auto        | best  | 10    | 11       | tesla        |
 
   Scenario: Update an exciting product & verify that product  is updated
-    When I update a product with product Id and give information ProductId "673890" name "viral", type "HardGood", upc "abcd", description "auto", model "best", price  "10", shipping "11" , manufacturer "tesla"
+    When I update a product with product Id and give information ProductId "673890" name "Tushar", type "HardGood", upc "abcd", description "auto", model "best", price  "10", shipping "11" , manufacturer "tesla"
     Then I verify that the product with id productId "673890" is updated
 
   Scenario: Delete an exciting product & verify that product is deleted
